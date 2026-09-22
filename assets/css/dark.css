@@ -1,0 +1,868 @@
+body {
+    background-color: #000 !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #fff !important;
+}
+
+p {
+    color: #9E9EA3 !important;
+}
+
+.section-title-four {
+    .title {
+        color: #fff !important;
+    }
+}
+
+.hero-area-four .hero-wrapper .hero-main-content .section-title .title span {
+    color: #fff;
+}
+
+.hero-area-four .hero-wrapper .hero-main-content .section-title .sub-title {
+    color: #fff !important;
+}
+
+.hero-area-four .hero-wrapper .hero-main-content .section-title .title {
+    color: #fff !important;
+}
+
+.info-cta .cta-item .title {
+    color: #fff !important;
+}
+
+.info-cta .cta-item span {
+    color: #9E9EA3 !important;
+}
+
+.simple-btn-white .gt-btn-circle-2 {
+    border: 1px solid rgba(255, 255, 255, .2) !important;
+
+    .gt-btn-circle-text-2 {
+         color: #fff;
+    }   
+
+    &:hover {
+        .gt-btn-circle-text-2 {
+            color: #000;
+        }   
+    }
+   
+}
+
+.counter-area-four .counter-wrapper .counter-items .counter-title h4 {
+    color: #000 !important;
+}
+
+.about-wrapper.style-4 .about-left-content .about-review span {
+    color: #fff !important;
+}
+
+.section-title-four .sub-title {
+    color: #fff !important;
+}
+
+.about-wrapper.style-4 .about-right-content .about-card .about-card-items .card-title {
+    color: #fff !important;
+}
+
+.about-wrapper.style-4 .about-right-content .btn-content .about-cta-wrap img{
+    filter: grayscale(1) brightness(0) invert(1) !important;
+}
+
+.featured-area-four {
+    background-color: #282828 !important;
+}
+
+.faq-area-four .faq-wrapper {
+    background-color: #282828 !important;
+}
+
+.accordion.style3 .accordion-item button {
+    color: #fff !important;
+}
+
+.featured-area-four .featured-wrapper .featured-card .card-content .card-title a {
+    color: #fff !important;
+}
+
+.featured-area-four .featured-wrapper .row .col-xl-6:nth-child(1) {
+    border-right: 1px solid rgba(255, 255, 255, .2) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, .2) !important;
+}
+
+.accordion.style3 .accordion-item {
+    border-bottom: 1px solid rgba(255, 255, 255, .2) !important;
+}
+
+.accordion.style3 .accordion-item .accordion-collapse .accordion-body {
+    color: #fff !important;
+}
+
+.award-area-four .award-wrapper .award-info .info-items .info-content {
+    color: #fff !important;
+}
+
+.award-area-four .award-wrapper .award-info .info-items .info-content {
+    border-bottom: 1px solid rgba(255, 255, 255, .2) !important;
+}
+
+.our-client-area-four .our-client-wrapper .cards .card-items {
+     border: 1px solid rgba(255, 255, 255, .2) !important;
+}
+
+
+
+.work-process-right-content .section-title-four .sub-title {
+    color: #000 !important;
+}
+
+.work-process-right-content .section-title-four {
+    .title {
+        color: #000 !important;
+    }
+}
+
+.work-process-area-four .work-process-wrapper .work-process-right-content .work-process-main-content .text {
+    color: #000 !important;
+}
+
+.team-area-four .team-wrapper .team-main-content .member-name a {
+    color: #fff;
+}
+
+.team-area-four .team-wrapper .team-main-content .social-icon ul li a {
+    border: 1px solid rgba(255, 255, 255, .2) !important;
+    svg path {
+        fill: #fff;
+    }
+}
+
+.team-area-four .team-wrapper .team-top-content {
+    border-bottom: 1px solid rgba(255, 255, 255, .2) !important;
+}
+
+.team-area-four .team-wrapper .item-border {
+     border-bottom: 1px solid rgba(255, 255, 255, .2) !important;
+}
+
+.gt_text_invert > div {
+    background-image: linear-gradient(to right, #fff 50%, #fff 50%) !important;
+}
+
+.testimonial-area-four .testimonial-wrapper .testimonial-card {
+    background-color: #282828 !important;
+}
+
+.blog-area-one .blog-wrapper .blog-card .title {
+    color: #fff !important;
+}
+
+.blog-area-one .blog-wrapper .item-border {
+    border-top: 1px solid rgba(255, 255, 255, .2) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, .2) !important;
+}
+
+.contact-area-four .contact-wrapper {
+     background-color: #282828 !important;
+}
+
+.blog-area-one .blog-wrapper .blog-card .card-content .blog-composed .name {
+    color: #fff !important;
+}
+
+.contact-area-four .contact-wrapper .logo img {
+     filter: grayscale(1) brightness(0) invert(1) !important;
+}
+
+.contact-area-four .contact-wrapper .contact-cta .cta-item .icon {
+     border: 1px solid rgba(255, 255, 255, .2) !important;
+     
+     svg path {
+        fill: #fff;
+     }
+}
+
+.contact-area-four .contact-wrapper .contact-cta .cta-item .location {
+    color: #fff !important;
+}
+
+.contact-area-four .contact-wrapper .contact-cta .cta-item a {
+    color: #fff !important;
+}
+
+.icon {
+    svg path {
+        fill: #fff !important;
+    }
+}
+
+.header-main .main-menu ul li a {
+    color: #fff !important;
+}
+
+.header-main .main-menu ul li .submenu {
+    background-color: #0e0d0d !important;
+}
+
+.header-4 {
+    background-color: transparent !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.sticky {
+     background-color: #0e0d0d !important;
+     box-shadow: none !important;
+}
+
+.header-4 .mega-menu-wrapper .header-main {
+    border-bottom: none !important;
+}
+
+.header-4 .mega-menu-wrapper .header-main .header-right .hero-button .solid-btn {
+    color: #fff !important;
+}
+
+.hero-area-three .hero-wrapper .hero-section-title .sub-title {
+    color: #fff !important;
+}
+
+.hero-area-three .hero-wrapper .hero-section-title .title {
+     color: #fff !important;
+}
+
+.section-title-three .title span {
+    color: #fff !important;
+}
+
+.section-title-three .title {
+    color: #fff !important;
+}
+
+.about-wrapper.style-3 .about-card .about-card-wrapper {
+      background-color: #282828 !important;
+}
+
+.about-wrapper.style-3 .about-card .about-card-wrapper .card-content span {
+     color: #fff !important;
+}
+
+.project-area-three .project-wrapper .thumb-wrap .thumb a .card-text-content {
+      background-color: #282828 !important;
+}
+
+.work-process-area-three .work-process-wrapper .work-process-content {
+      background-color: #282828 !important;
+}
+
+.work-process-area-three .work-process-wrapper .work-process-content .work-process-items.items-2 {
+    background-color: #454343 !important;
+     .title {
+        color: #fff;
+    }
+}
+
+.work-process-area-three .work-process-wrapper .work-process-content .work-process-items.items-1 {
+    background-color: #454343 !important;
+     .title {
+        color: #fff;
+    }
+}
+
+.work-process-area-three .work-process-wrapper .work-process-content .work-process-items.items-4 {
+    background-color: #454343 !important;
+
+    .title {
+        color: #fff;
+    }
+}
+
+.solid-btn-2 {
+     color: #fff !important;
+}
+
+.service-area-three .service-wrapper .services-card-wrap .rolling-text .marquee-text {
+     color: #282828 !important;
+}
+
+.line-shape-1 {
+    background: repeating-linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 5px, transparent 5px, transparent 10px) !important;
+}
+
+.line-shape-3 {
+    background: repeating-linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 5px, transparent 5px, transparent 10px) !important;
+}
+
+.testimonial-area-three .testimonial-wrapper .testimonial-card {
+    background-color: #282828 !important;
+}
+
+.testimonial-area-three .testimonial-wrapper .testimonial-card {
+     background-color: #282828 !important;
+}
+
+.testimonial-area-three .testimonial-wrapper .testimonial-card::before {
+    display: none;
+}
+
+.testimonial-area-three .testimonial-wrapper .testimonial-card .card-cta .page .page-1 {
+    color: #fff !important;
+}
+
+.testimonial-area-three .testimonial-wrapper .testimonial-card .card-cta .page .page-1::after {
+     background: #fff !important;
+}
+
+.testimonial-area-three .testimonial-wrapper .testimonial-card .card-cta .page .page-2 {
+     color: #fff !important;
+}
+
+.cta-area-three .cta-wrapper .cta-content {
+    background-color: #282828 !important;
+}
+
+.cta-area-three .cta-wrapper .cta-content .cta-content-wrap .title {
+     color: #fff !important;
+}
+
+.footer-area-three .footer-wrapper .footer-items .footer-menu li a {
+     color: #fff !important;
+}
+
+.footer-area-three .footer-wrapper .footer-items.border-content {
+    border-left: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.footer-area-three .footer-wrapper .footer-items .company-info {
+     background-color: #282828 !important;
+      border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.footer-area-three .footer-wrapper .footer-items .company-info .location {
+    svg path {
+        fill: #fff !important;
+    }
+}
+
+.footer-area-three .footer-wrapper .footer-items .contact-info .company-copy-right span {
+     color: #fff !important;
+}
+
+.footer-area-three .footer-wrapper .footer-items .contact-info .company-copy-right .policy {
+     color: #fff !important;
+}
+
+.footer-area-three .footer-wrapper {
+     border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.header-3 .mega-menu-wrapper .header-main .header-right .search-toggler {
+    color: #fff !important;
+}
+
+.header-3 .mega-menu-wrapper .header-main .header-right .header-bar {
+    svg path {
+        fill: #fff;
+    }
+}
+
+.hero-area-two .hero-wrapper .hero-shape-bg {
+    display: none;
+}
+
+.hero-area-two {
+    background-color: #1E1E1E;
+}
+
+.accolades-area-two .accolades-wrapper .accolades-card .accolades-logo {
+    img {
+           filter: grayscale(1) brightness(0) invert(1) !important;
+    }
+}
+
+.hero-area-three .hero-wrapper .hero-clint-part img {
+     filter: grayscale(1) brightness(0) invert(1) !important;
+}
+
+.gt_text_invert_3 > div {
+    background-image: linear-gradient(to right, #fff 50%, #fff 50%) !important;
+}
+
+.about-wrapper.style-2 .about-counter-wrap {
+    background-color: #282828 !important;
+}
+
+.about-wrapper.style-2 .about-counter-wrap .counter-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+} 
+
+.about-wrapper.style-2 .about-counter-wrap .counter-item .counter span {
+     color: #fff !important;
+}
+
+.project-area-two {
+      background-color: #282828 !important;
+}
+
+.project-area-two .project-wrapper .section-title .section-tab-wrap ul li {
+    background-color: #fff !important;
+}
+
+.service-area-two .service-wrapper .sub-title {
+     color: #fff !important;
+}
+
+.service-area-two .service-wrapper .service-card-content .items-wrap .item .item-title {
+     color: #fff !important;
+}
+
+.service-area-two .service-wrapper .service-card-content .title {
+     color: #fff !important;
+}
+
+.group .cta-area .cta-area-inner .area-bg {
+     background-color: #282828 !important;
+}
+
+.testimonial-area-two .testimonial-wrapper .testimonial-card .review-text {
+    color: #000 !important;
+}
+
+.slider-control .page-control::before {
+     background-color: #fff !important;
+}
+
+.slider-control .page-control .page-1 {
+     color: #fff !important;
+}
+
+.slider-control .page-control .page-2 {
+     color: #fff !important;
+}
+
+.blog-area-two .blog-card .title {
+     color: #fff !important;
+}
+
+.marquee-wrap {
+     background-color: #000 !important;
+}
+
+.brand-logo {
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.contact-area-two .contact-wrapper {
+      background-color: #282828 !important;
+}
+
+.contact-area-two .contact-wrapper .section-title .title {
+     color: #fff !important;
+}
+
+.contact-area-two .contact-wrapper .contact-text {
+     color: #fff !important;
+}
+
+.contact-area-two .contact-wrapper .section-title .gt-svg-btn {
+    svg path {
+        fill: #fff !important;
+    }
+}
+
+.contact-area-two .contact-wrapper .contact-text a {
+     color: #fff !important;
+}
+
+.footer-area-two .footer-wrapper {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.about-wrapper .sub-title2 {
+     color: #fff !important;
+}
+
+.about-wrapper .about-btn-content .arrow-shape {
+    svg path {
+        fill: #fff !important;
+    }
+}
+
+.about-wrapper .about-right-content .about-main-content .about-info .about-info-item span {
+    color: #fff !important;
+}
+
+.project-area-one .project-wrapper .rolling-text .marquee-text {
+    color: #fff !important;
+}
+
+.project-area-one .project-wrapper .project-card-wrapper {
+      background-color: #000 !important;
+}
+
+.service-area-one {
+   background-color: #000 !important;
+}
+
+.service-area-one .service-wrapper .service-card {
+      background-color: #282828 !important;
+}
+
+.service-area-one .service-wrapper .service-card .card-back {
+     background-color: #282828 !important;
+}
+
+.testimonial-area-one {
+      background-color: #282828 !important;
+}
+
+.testimonial-area-one {
+    background-color: #282828 !important;
+}
+
+.testimonial-area-one .testimonial-wrapper .testimonial-content {
+     background-color: #000 !important;
+}
+
+.solutions-wrapper1 .solutions-content .left-bottom-content .award-content .award-list-items span {
+    border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.footer-area-one {
+     background-color: #282828 !important;
+}
+
+.footer-area-one .footer-wrapper .footer-top-left-content .footer-logo {
+    img {
+        filter: grayscale(1) brightness(0) invert(1) !important;
+    }
+}
+
+.footer-area-one .footer-wrapper .footer-top-right-content .content .text a {
+    color: #fff !important;
+}
+
+.footer-area-one .footer-wrapper .footer-main-part .footer-menu ul li a {
+     color: #fff !important;
+}
+
+.footer-area-one .footer-wrapper .footer-main-part .footer-menu ul li a:hover {
+    color: var(--gt-theme) !important;
+}
+
+.footer-area-one .footer-wrapper .footer-main-part .footer-menu .menu-title {
+    color: #fff !important;
+}
+
+.footer-area-one .footer-wrapper .footer-top-left-content .contact-info .phone-number {
+     color: #fff !important;
+}
+
+.footer-area-one .footer-wrapper .footer-top-left-content .contact-info .email {
+    color: #fff !important;
+}
+
+.footer-area-one .footer-wrapper .footer-top-part {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.sticky.header-1 .header-logo {
+    display: block !important;
+}
+
+.sticky.header-1 .header-logo-2 {
+    display: none !important;
+}
+
+.sticky.header-1 .header-right .hero-button a {
+    color: #fff !important;
+}
+
+.offcanvas__wrapper .offcanvas__content .offcanvas__contact {
+    h3 {
+        color: #000 !important;
+    }
+}
+
+.solutions-wrapper1 .solutions-content .left-bottom-content .award-content .award-list-items span {
+    color: #fff !important;
+}
+
+.contact-area .contact-wrapper .contact-cta-wrap .contact-cta .text {
+     color: #000 !important;
+}
+
+.hero-4 .hero-content .hero-bottom .content {
+    border-top: 1px solid #fff !important;
+}
+
+.hero-4 {
+    background-color: #010514;
+}
+
+.work-process-box-style-4 {
+    background-color: #010514 !important;
+}
+
+.work-process-box-style-4 .work-btn {
+    color: #fff !important;
+}
+
+.service-box-style-4 .service-list-wrap.active-block {
+     background-color: #010514 !important;
+}
+
+.service-box-style-4 .service-list-wrap .service-wrap .item-text ul li {
+    color: #fff !important;
+}
+
+.service-box-style-4 .service-list-wrap {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.service-box-style-4 .service-list-wrap .service-acc-btn .icon {
+     border: 1px solid rgba(255, 255, 255, 0.2) !important;
+     color: #fff !important;
+}
+
+.service-section-4 .service-box-style-4 .block .service-acc-btn.active .icon {
+    background-color: var(--gt-theme) !important;
+    color: var(--gt-black) !important;
+    border: 1px solid var(--gt-theme) !important;
+}
+
+.testimonial-box-style-4 {
+     background-color: #010514 !important;
+}
+
+.testimonial-box-style-4 .client-info-item .client-info span {
+     color: #fff !important;
+}
+
+.testimonial-section-4 .swiper-dot .swiper-pagination-bullet {
+    background-color: #fff !important;
+}
+
+.testimonial-section-4 .swiper-dot .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #C9F31D !important;
+}
+
+.award-section {
+    border-top: 1px solid rgba(255, 255, 255, .2) !important;
+}
+
+.award-wrapper .award-box-items {
+     background-color: #010514 !important;
+}
+
+.award-wrapper .award-box-items {
+    img {
+         filter: grayscale(1) brightness(0) invert(1) !important;
+    }
+}
+
+.award-wrapper .award-box-items .award-title {
+    border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.brand-box-1.style-4 {
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.brand-box-1.style-4 {
+   img {
+         filter: grayscale(1) brightness(0) invert(1) !important;
+    }
+}
+
+.news-left-items {
+     border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.news-left-items .content h3 a {
+     color: #fff !important;
+}
+
+.news-left-items .content .link-btn {
+     color: #fff !important;
+}
+
+.news-right-list li .news-box-style-4 {
+      border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.news-right-list li .news-box-style-4 .content h3 a {
+     color: #fff !important;
+}
+
+.news-right-list li .news-box-style-4 .content .link-btn {
+     color: #fff !important;
+}
+
+.news-left-items .content ul li a {
+    background-color: #C9F31D !important;
+    color: #000 !important;
+}
+
+.news-right-list li .news-box-style-4 .content ul li a {
+    background-color: #C9F31D !important;
+    color: #000 !important;
+}
+
+.footer-section-55 {
+     background-color: #010514 !important;
+}
+
+.footer-section-55 .footer-widget-wrapper55 .footer-logo {
+    img {
+         filter: grayscale(1) brightness(0) invert(1) !important;
+    }
+}
+
+.footer-section-55 .footer-widget-wrapper55 .footer-widget-items .footer-content p {
+    color: #fff !important;
+}
+
+.footer-section-55 .footer-widget-wrapper55 .footer-widget-items .footer-content .social-icon a {
+    background-color: #000 !important;
+
+    &:hover {
+         background-color: #C9F31D !important;
+    }
+}
+
+.footer-section-55 .footer-widget-wrapper55 .footer-widget-items .widget-head h3 {
+    color: #fff !important;
+}
+
+.footer-section-55 .footer-widget-wrapper55 .footer-widget-items .widget-head h3 {
+    color: #fff !important;
+}
+
+.footer-section-55 .footer-widget-wrapper55 .footer-widget-items .gt-list-area li a {
+     color: #fff !important;
+}
+
+.footer-section-55 .footer-widget-wrapper55 .footer-form-3 .sq-checkbox {
+     color: #fff !important;
+}
+
+.footer-bottom .footer-bottom-wrapper .footer-list li {
+    a {
+         color: #fff !important;
+    }
+}
+
+.footer-section-55 .footer-bottom-wrapper p {
+     color: #fff !important;
+}
+
+.footer-section-55 .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.hero-1 {
+    background-image: none !important;
+}
+
+    .project-wrapper .project-items .content {
+        span {
+            color: #fff !important;
+        }
+    }
+
+    .project-wrapper .project-items .content {
+        h4 {
+            a {
+                  color: #fff !important;
+            }
+        }
+    }
+
+    .project-wrapper .project-items .content .icon a {
+        i {
+            color: #fff !important;
+        }
+
+        &:hover {
+            i {
+                color: #000 !important;
+            }
+        }
+    }
+
+    .awards-wrapper .awards-item {
+   
+    border: var(--gt-border);
+    transition: all 0.4s ease-in-out;
+    background: #282828 !important;
+}
+
+.awards-wrapper .awards-item .content .text span {
+    color: #fff !important;
+}
+
+
+.awards-wrapper .awards-item img {
+    filter: grayscale(1) brightness(0) invert(1) !important;
+}
+
+.pricing-section22 {
+   background: #282828 !important;
+}
+
+.price-wrapper .price-item {
+    background-color: #000 !important;
+}
+
+.price-wrapper .price-item .price-list li {
+    color: #fff !important;
+}
+
+.price-wrapper .price-item .content {
+    border-bottom: 1px solid rgba(255, 255, 255, .2) !important;
+}
+
+.news-1 {
+    background-color: #000 !important;
+}
+
+.news-1 .news-item {
+   background: #282828 !important;
+}
+
+.news-1 .news-item .content .news-meta .green {
+    color: #fff !important;
+}
+
+.news-1 .news-item .content .news-meta .date span {
+    background-color: #fff !important;
+}
+
+.news-1 .news-item .content .news-meta .date {
+    color: #fff !important;
+}
+
+.news-1 .news-item .content h4 a {
+    color: #fff !important;
+}
+
+.news-1 .news-item .content .news-btns a {
+     color: #fff !important;
+}
+
+.hero-1 .hero-info a {
+    color: #fff !important;
+}
+
+.header-main .main-menu ul li .has-homemenu .homemenu-items .homemenu .homemenu-thumb .demo-button .theme-btn
+
+ {
+   
+    color: var(--gt-black) !important;
+
+    &:hover {
+        color: #fff !important;
+    }
+}

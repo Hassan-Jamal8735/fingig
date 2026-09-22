@@ -1,0 +1,1262 @@
+.hero-area-one {
+    .tp-letter-span {
+        display: inline-block;
+    }
+
+    .hero-wrapper {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        padding: 220px 0 80px 0;
+
+        @include breakpoint(max-md) {
+            padding: 150px 0 100px 0;
+        }
+
+        .content__img {
+            position: absolute;
+            width: 300px;
+            height: 400px;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+        }
+
+        .content__img-inner {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            background-repeat: no-repeat;
+        }
+
+        .hero-line-one {
+            position: absolute;
+            bottom: 0;
+            left: 200px;
+            width: 1px;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.20);
+
+            @include breakpoint (max-xl4) {
+                left: 20%;
+            }
+        }
+
+        .hero-line-two {
+            position: absolute;
+            bottom: 0;
+            right: 200px;
+            width: 1px;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.20);
+
+            @include breakpoint (max-xl4) {
+                right: 20%;
+            }
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: -1;
+        }
+
+        .container {
+            position: relative;
+
+        }
+
+        .hero-section-title {
+            margin-bottom: 20px;
+
+            @include breakpoint(max-md) {
+                margin-bottom: 0;
+            }
+
+            h1 {
+                color: $gt-white;
+                margin-bottom: 20px;
+                font-family: $gt-secondary-font;
+                text-align: center;
+                margin-bottom: 30px;
+                font-weight: 600;
+
+                @include breakpoint(max-lg) {
+                    margin-bottom: 0 !important;
+                }
+            }
+
+            .title {
+                color: $gt-theme-color;
+                font-family: $gt-heading-font;
+                font-size: 200px;
+                font-style: normal;
+                font-weight: 400;
+                text-align: center;
+                letter-spacing: -2px;
+                text-transform: uppercase;
+                text-align: center;
+                line-height: 180px;
+
+                @include breakpoint(max-xxl) {
+                    font-size: 140px;
+                    line-height: 80%;
+                }
+
+                @include breakpoint(max-lg) {
+                    font-size: 105px;
+                    line-height: 100px;
+                }
+
+                @include breakpoint(max-md) {
+                    font-size: 80px;
+                    line-height: 85px;
+                }
+
+                @include breakpoint(max-sm) {
+                    font-size: 72px;
+                    line-height: 77px;
+                }
+
+                @include breakpoint(max-xs) {
+                    font-size: 70px;
+                    line-height: 75px;
+                }
+
+                @include breakpoint(max-xxs) {
+                    font-size: 60px;
+                    line-height: 68px;
+                }
+
+                @include breakpoint(max-xxsmall) {
+                    font-size: 47px;
+                    line-height: 53px;
+                }
+            }
+        }
+
+        .hero-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            @include breakpoint(max-lg) {
+                flex-direction: column-reverse;
+                gap: 30px;
+            }
+
+            @include breakpoint(max-md) {
+                flex-direction: column-reverse;
+                gap: 20px;
+            }
+
+            .title-two {
+                color: $gt-white;
+                font-family: $gt-heading-font;
+                font-size: 200px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 180px;
+                letter-spacing: -2px;
+                text-transform: uppercase;
+                text-align: center;
+
+                @include breakpoint(max-xxl) {
+                    font-size: 130px;
+                    line-height: 130%;
+                }
+
+                @include breakpoint(max-lg) {
+                    font-size: 105px;
+                    line-height: 100px;
+                }
+
+                @include breakpoint(max-md) {
+                    font-size: 80px;
+                    line-height: 85px;
+                }
+
+                @include breakpoint(max-xs) {
+                    font-size: 70px;
+                    line-height: 75px;
+                }
+
+                @include breakpoint(max-xxs) {
+                    font-size: 60px;
+                    line-height: 68px;
+                }
+
+                @include breakpoint(max-xxsmall) {
+                    font-size: 47px;
+                    line-height: 53px;
+                }
+            }
+
+            .text {
+                color: $gt-text-color-1;
+                max-width: 300px;
+                letter-spacing: -0.16px;
+                text-transform: capitalize;
+                margin-left: -26px;
+
+                @include breakpoint(max-xxxl) {
+                    margin-left: 0;
+                }
+
+                @include breakpoint(max-lg) {
+                    text-align: center;
+                }
+
+            }
+
+            .our-clint {
+                @include breakpoint(max-xl) {
+                    gap: 3px;
+                }
+
+                @include breakpoint(max-md) {
+                    display: none;
+                }
+
+                .text {
+                    max-width: 116px;
+                }
+            }
+
+        }
+    }
+}
+
+.hero-area-two {
+    .hero-wrapper {
+        padding-top: 278px;
+        position: relative;
+        z-index: 1;
+
+
+        @include breakpoint (max-xxl) {
+            padding-top: 150px;
+        }
+
+        .hero-shape-bg {
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            top: 0;
+        }
+
+        .hero-shape-1 {
+            position: absolute;
+            right: 150px;
+            top: 200px;
+            z-index: -1;
+        }
+
+        .hero-shape-2 {
+            position: absolute;
+            left: 0;
+            bottom: 123px;
+            z-index: -1;
+        }
+
+        .hero-shape-3 {
+            position: absolute;
+            right: 0;
+            top: 148px;
+            z-index: 0;
+        }
+
+        .line-shape-1 {
+            position: absolute;
+            left: 75px;
+            bottom: 0;
+            width: calc(100% - 150px);
+            height: 1px;
+            background: repeating-linear-gradient(to right,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2) 5px,
+                    transparent 5px,
+                    transparent 10px);
+            z-index: -1;
+            animation: dash-3 1s linear infinite;
+        }
+
+        .note-btn {
+            border-radius: 4px;
+            color: $gt-white;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 12px;
+            letter-spacing: -0.36px;
+            text-transform: capitalize;
+            display: inline-block;
+            padding: 7px 10px;
+
+            &.note-btn-1 {
+                transform: rotate(15deg);
+                background: $gt-bg-color-6;
+                position: absolute;
+                bottom: 240px;
+                left: 199px;
+
+                @include breakpoint (max-xxl) {
+                    left: 100px;
+                }
+
+                @include breakpoint (max-xxs) {
+                    display: none;
+                }
+            }
+
+            &.note-btn-2 {
+                transform: rotate(-15deg);
+                background: $gt-bg-color-7;
+                position: absolute;
+                right: 704px;
+                top: 209px;
+
+                @include breakpoint (max-xxl) {
+                    top: 100px;
+                }
+
+                @include breakpoint (max-xl) {
+                    right: 50%;
+                }
+            }
+
+            &.note-btn-3 {
+                transform: rotate(15deg);
+                background: $gt-bg-color-8;
+                position: absolute;
+                right: 163px;
+                bottom: 122px;
+
+                @include breakpoint (max-xxl) {
+                    right: 50px;
+                }
+            }
+        }
+
+        .container-fluid {
+            margin: 0 150px;
+
+            @include breakpoint (max-xxl) {
+                margin: 50px;
+            }
+
+            @include breakpoint (max-xl) {
+                margin: 0;
+            }
+        }
+
+        .hero-section-heading {
+            margin-bottom: 50px;
+
+            @include breakpoint (max-md){
+                margin-bottom: 30px;
+            }
+
+            .title {
+                color: $gt-black;
+                font-family: $gt-body-font;
+                font-size: 100px;
+                font-weight: 500;
+                line-height: 100px;
+                letter-spacing: -3px;
+                text-transform: capitalize;
+                max-width: 100%;
+                display: block;
+
+                @include breakpoint (max-xxl) {
+                    font-size: 90px;
+                }
+
+                @include breakpoint (max-xl) {
+                    font-size: 80px;
+                    line-height: 85px;
+                }
+
+                @include breakpoint (max-md) {
+                    font-size: 70px;
+                    line-height: 72px;
+                }
+
+                @include breakpoint (max-sm) {
+                    font-size: 65px;
+                    line-height: 72px;
+                }
+
+                @include breakpoint (max-xs) {
+                    font-size: 60px;
+                    line-height: 70px;
+                }
+
+                @include breakpoint (max-xxs) {
+                    font-size: 55px;
+                    line-height: 65px;
+                }
+
+                @include breakpoint (max-xxsmall) {
+                    font-size: 40px;
+                    line-height: 52px;
+                }
+            }
+        }
+
+        .hero-main-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            margin-left: 225px;
+
+            @include breakpoint (max-xl) {
+                gap: 30px;
+            }
+
+            @include breakpoint (max-xxl) {
+                margin-left: 0;
+            }
+
+            @include breakpoint (max-xl) {
+                margin-left: 0;
+            }
+
+            @include breakpoint (max-md) {
+                flex-wrap: wrap;
+            }
+
+            .hero-thumb {
+                @include breakpoint (max-md) {
+                    width: 100%;
+                }
+
+                img {
+                    @include breakpoint (max-md) {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .content {
+                color: $gt-text-color-2;
+                text-transform: capitalize;
+
+                .text {
+                    color: $gt-text-color-2;
+                    text-transform: capitalize;
+                    max-width: 545px;
+                    margin-bottom: 30px;
+
+                    @include breakpoint (max-xl) {
+                        font-size: 14px;
+                    }
+                }
+
+                .hero-btn-wrap {
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+
+                    @include breakpoint (max-xxsmall) {
+                        flex-direction: column;
+                        gap: 20px;
+                        align-items: start;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hero-area-three {
+    padding-top: 280px;
+    position: relative;
+    margin-bottom: 150px;
+
+    .hero-line {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    @include breakpoint (max-xxl) {
+        padding-top: 170px;
+    }
+
+    @include breakpoint (max-xl) {
+        padding-top: 150px;
+    }
+
+    @include breakpoint (max-lg) {
+        padding-top: 150px;
+    }
+
+    @include breakpoint (max-md) {
+        padding-top: 150px;
+    }
+
+    .hero-wrapper {
+        position: relative;
+        margin: 0 138px;
+
+        @include breakpoint (max-xl4) {
+            margin: 0 20px;
+        }
+
+        .main-shape {
+            position: absolute;
+            top: -50px;
+            right: 40%;
+        }
+
+        .hero-section-title {
+            .sub-title {
+                color: $gt-black;
+                font-family: $gt-secondary-font;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: -0.3px;
+                text-transform: capitalize;
+                margin-bottom: 8px;
+                margin-bottom: 20px;
+            }
+
+            .title {
+                color: $gt-black;
+                font-size: 130px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 140px;
+                text-transform: capitalize;
+                max-width: 880px;
+                margin-bottom: 70px;
+
+                @include breakpoint (max-xl4) {
+                    font-size: 115px;
+                    line-height: 120px;
+                }
+
+                @include breakpoint (max-xxxl) {
+                    font-size: 85px;
+                    line-height: 110px;
+                    max-width: 680px;
+                }
+
+                @include breakpoint (max-xl) {
+                    font-size: 130px;
+                    line-height: 140px;
+                    max-width: 880px;
+                }
+
+                @include breakpoint (max-lg) {
+                    font-size: 85px;
+                    line-height: 110px;
+                    max-width: 680px;
+                }
+
+                @include breakpoint (max-md) {
+                    font-size: 65px;
+                    line-height: 70px;
+                    margin-bottom: 30px;
+                    max-width: 500px;
+                }
+
+                @include breakpoint (max-sm) {
+                    font-size: 57px;
+                    line-height: 60px;
+                    margin-bottom: 20px;
+                }
+
+                @include breakpoint (max-xs) {
+                    font-size: 40px;
+                    line-height: 50px;
+                    max-width: 370px;
+                }
+
+                @include breakpoint (max-xxs) {
+                    max-width: 280px;
+                }
+
+                @include breakpoint (max-xxxsmall) {
+                    font-size: 38px;
+                    line-height: 45px;
+                    max-width: 250px;
+                }
+
+                span {
+                    svg {
+                        @include breakpoint (max-md) {
+                            width: 150px;
+                            height: 150px;
+                        }
+
+                        @include breakpoint (max-xxs) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .text-content {
+            margin-left: 247px;
+            margin-bottom: 124px;
+
+            @include breakpoint (max-xxxl) {
+                margin-left: 80px;
+            }
+
+            @include breakpoint (max-xl) {
+                margin-left: 0;
+                margin-bottom: 60px;
+            }
+
+            @include breakpoint (max-md) {
+                margin-bottom: 30px;
+            }
+
+            h4 {
+                color: $gt-black;
+                font-family: $gt-body-font;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 26px;
+                text-transform: capitalize;
+            }
+
+            .text {
+                color: $gt-text-color-2;
+                text-transform: capitalize;
+                max-width: 555px;
+            }
+        }
+
+        .hero-clint-part {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            @include breakpoint (max-xxxl) {
+                justify-content: start;
+                gap: 50px;
+            }
+
+            @include breakpoint (max-sm) {
+                flex-direction: column;
+                align-items: start;
+                gap: 30px;
+            }
+
+            .shape {
+                @include breakpoint (max-xxxl) {
+                    display: none;
+                }
+            }
+
+            .our-clint {
+                @include breakpoint (max-sm) {
+                    margin-left: 25px;
+                }
+            }
+        }
+
+        .thumb-wrap {
+            display: flex;
+            align-items: center;
+            gap: 17px;
+            margin-left: -58px;
+
+            @include breakpoint (max-xl4) {
+                margin-left: -85px;
+            }
+
+            @include breakpoint (max-xxxl) {
+                margin-left: -150px;
+            }
+
+            @include breakpoint (max-xxl) {
+                margin-left: 0;
+            }
+
+            .shape-wrapper {
+                width: 50%;
+                position: relative;
+
+                @include breakpoint (max-xxl) {
+                    display: none;
+                }
+
+
+                .masked-img {
+                    width: 100%;
+                    min-height: 687px;
+                    object-fit: cover;
+                    clip-path: path("M345.653 0.0007L345.767 335.199L0 335.188C5.42343 149.38 158.272 -0.380283 345.653 0.0007Z M1.77502 352.484L347 352.467L345.492 687C158.416 686.646 6.4537 537.738 1.77502 352.484Z");
+                }
+
+                .shape-1 {
+                    position: absolute;
+                    bottom: -18px;
+                    left: -16px;
+
+                    @include breakpoint (max-xl4) {
+                        display: none;
+                    }
+
+                    svg path {
+                        stroke: black;
+                        stroke-opacity: 0.25;
+                        stroke-width: 1.5;
+                        fill: none;
+                        stroke-dasharray: 5 5;
+                        animation: move-dash 2s linear infinite;
+                    }
+                }
+
+            }
+
+            .shape-wrapper-2 {
+                width: 50%;
+                margin-top: -165px;
+                position: relative;
+
+                @include breakpoint (max-xxxl) {
+                    width: 100%;
+                }
+
+                @include breakpoint (max-xxl) {
+                    margin-top: 0;
+                }
+
+                @include breakpoint (max-xl) {
+                    display: none;
+                }
+
+                .masked-img {
+                    width: 100%;
+                    min-height: 687px;
+                    object-fit: cover;
+                    clip-path: path("M344.711 352.983C339.777 537.564 188.41 685.881 2.00488 686.497L0.501953 352.967L344.711 352.983ZM1.8457 0.500977C188.554 0.386501 340.805 149.551 346.482 334.688L1.7334 334.697L1.8457 0.500977Z");
+                }
+
+                .shape-2 {
+                    position: absolute;
+                    top: -22px;
+                    right: -10px;
+
+                    @include breakpoint (max-xl4) {
+                        display: none;
+                    }
+
+                    svg path {
+                        stroke: black;
+                        stroke-opacity: 0.25;
+                        stroke-width: 1.5;
+                        fill: none;
+                        stroke-dasharray: 5 5;
+                        animation: move-dash 2s linear infinite;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hero-area-four {
+    .hero-wrapper {
+        position: relative;
+
+        .hero-bg {
+            position: absolute;
+            right: 0;
+            bottom: -578px;
+            z-index: -1;
+        }
+
+        .hero-top-content {
+            display: flex;
+            align-items: center;
+            padding-bottom: 0;
+        }
+
+        .col-xl-3 {
+            @include breakpoint (max-xl) {
+                display: none;
+            }
+        }
+
+        .hero-main-content {
+            padding-top: 94px;
+
+            @include breakpoint (max-lg) {
+                padding-top: 70px;
+            }
+
+            @include breakpoint (max-md) {
+                padding-top: 40px;
+            }
+
+            .section-title {
+                margin-bottom: 45px;
+
+                .sub-title {
+                    color: $gt-text-color-5;
+                    font-family: $gt-secondary-font-2;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 26px;
+                    letter-spacing: 1.6px;
+                    text-transform: uppercase;
+                }
+
+                .title {
+                    color: $gt-text-color-6;
+                    font-family: $gt-secondary-font-2;
+                    font-size: 100px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 110px;
+                    letter-spacing: -3px;
+
+                    @include breakpoint (max-xxl) {
+                        font-size: 99px;
+                        line-height: 102px;
+                    }
+
+                    @include breakpoint (max-lg) {
+                        font-size: 84px;
+                        line-height: 94px;
+                    }
+
+                    @include breakpoint (max-md) {
+                        font-size: 64px;
+                        line-height: 77px;
+                    }
+
+                    @include breakpoint (max-sm) {
+                        font-size: 59px;
+                        line-height: 74px;
+                    }
+
+                    @include breakpoint (max-xs) {
+                        font-size: 56px;
+                        line-height: 68px;
+                    }
+
+                    @include breakpoint (max-xxs) {
+                        font-size: 50px;
+                        line-height: 64px;
+                    }
+
+                    @include breakpoint (max-xxsmall) {
+                        font-size: 42px;
+                        line-height: 57px;
+                    }
+
+                    @include breakpoint (max-xxxsmall) {
+                        font-size: 39px;
+                        line-height: 54px;
+                    }
+
+                    span {
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .hero-right-content {
+                margin-right: -20px;
+
+                .right-text {
+                    color: $gt-text-color-5;
+                    font-family: $gt-secondary-font-2;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                    margin-bottom: 35px;
+                }
+
+                .our-clint {
+                    margin-left: 25px;
+                }
+            }
+        }
+    }
+}
+
+.hero-4 {
+    padding: 180px 0 0;
+
+    .hero-content {
+        h1 {
+            color: $gt-black;
+            font-size: 122.704px;
+            font-weight: 700;
+            line-height: 100%;
+            letter-spacing: -3.408px;
+            text-transform: uppercase;
+            font-family: $gt-body-font;
+
+            @include breakpoint (max-xl){
+                letter-spacing: initial;
+
+                br {
+                    display: none;
+                }
+            }
+
+            @include breakpoint (max-xxl){
+               font-size: 100px;
+            }
+
+            @include breakpoint (max-xl){
+               font-size: 90px;
+            }
+
+            @include breakpoint (max-lg){
+               font-size: 65px;
+            }
+
+            @include breakpoint (max-md){
+               font-size: 46px;
+            }
+
+            @include breakpoint (max-sm){
+               font-size: 42px;
+            }
+
+            @include breakpoint (max-xxs){
+               font-size: 36px;
+            }
+
+            .text{
+                color: $gt-theme-color;
+                opacity: 0.87;
+                font-size: 136px;
+                font-weight: 500;
+
+                @include breakpoint (max-lg){
+                    display: none;
+                }
+            }
+
+            img {
+                @include breakpoint (max-lg){
+                    display: none;
+                }
+            }
+        }
+
+        .hero-bottom {
+            margin-top: 60px;
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+
+            @include breakpoint (max-md){
+                flex-wrap: wrap;
+                margin-top: 30px;
+                gap: 30px;
+                align-items: center;
+            }
+            
+            .social-icon {
+                gap: 6px;
+
+                a {
+                    display: inline-block;
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background-color: $gt-black;
+                    color: $gt-white;
+
+                    &:hover {
+                        background-color: $gt-theme-color;
+                    }
+                }
+            }
+
+            .content {
+                display: flex;
+                gap: 10px;
+                border-top: 1px solid $gt-black;
+                max-width: 430px;
+                padding-top: 30px;
+
+                @include breakpoint (max-sm){
+                    padding-top: 20px;
+                }
+
+                p {
+                    color: $gt-black;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 140%;
+                    max-width: 400px;
+
+                    @include breakpoint (max-sm){
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-image {
+        margin-top: 120px;
+
+        @include breakpoint (max-xxl){
+            height: 600px;
+
+            img {
+                object-fit: cover;
+            }
+        }
+
+        @include breakpoint (max-xl){
+            margin-top: 80px;
+            height: 500px;
+
+            img {
+                object-fit: cover;
+            }
+        }
+
+        @include breakpoint (max-lg){
+            margin-top: 50px;
+            height: 600px;
+
+            img {
+                object-fit: cover
+            }
+        }
+        
+        img {
+            @include imgw;
+        }
+    }
+}
+
+.hero-1 {
+  padding-top: 120px;
+  position: relative;
+
+  .random-shape {
+    position: absolute;
+    top: 24%;
+    left: 18%;
+
+    @include breakpoint(max-xl) {
+      display: none;
+    }
+  }
+
+  .arrow-shape {
+    position: absolute;
+    top: 28%;
+    left: 45.5%;
+
+    @include breakpoint(max-xl) {
+      display: none;
+    }
+  }
+
+  .star-shape {
+    position: absolute;
+    top: 15%;
+    right: 22%;
+
+    @include breakpoint(max-xl) {
+      display: none;
+    }
+  }
+
+  .hero-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    gap: 20px;
+    position: absolute;
+    transform: rotate(-90deg) translateY(-50%);
+    top: 50%;
+    left: -45px;
+
+    @include breakpoint(max-xl) {
+      display: none;
+    }
+
+    a {
+      font-size: 14px;
+      font-weight: 500;
+      color: $gt-text-color;
+      position: relative;
+      @include transition;
+       font-family: $gt-body-font;
+
+      &.active {
+       
+      color: $gt-black;
+
+        &::before {
+          width: 50%;
+        }
+      }
+
+      &::before {
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 1px;
+        background-color: $gt-theme-color;
+        @include transition;
+      }
+
+      &:hover {
+      color: $gt-black;
+
+        &::before {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  .hero-images {
+    position: relative;
+    z-index: 9;
+
+    img {
+      @include breakpoint(max-xl) {
+        @include imgw;
+      }
+    }
+
+    .hero-shape {
+      position: absolute;
+      left: -10px;
+      bottom: 48px;
+      z-index: -1;
+
+      @include breakpoint(max-xl) {
+        display: none;
+      }
+
+      img {
+        height: initial;
+        width: initial;
+      }
+    }
+  }
+
+  .hero-content {
+    span {
+      color: $gt-black;
+      font-size: 18px;
+      font-weight: 600;
+
+      img {
+        margin-right: 10px;
+      }
+    }
+
+    h1 {
+      font-size: 75px;
+      margin-top: 20px;
+      margin-bottom: 25px;
+      font-family: $gt-body-font;
+      color: $gt-black;
+      line-height: 1.3;
+
+      @include breakpoint(max-xl) {
+        font-size: 55px;
+      }
+
+      @include breakpoint(max-md) {
+        font-size: 50px;
+      }
+
+      @include breakpoint(max-sm) {
+        font-size: 35px;
+      }
+
+      .type-text {
+        display: inline-block;
+        white-space: nowrap;
+        min-width: 150px;
+        word-break: keep-all;
+
+        span {
+          color: $gt-text-color;
+          font-size: inherit;
+          font-weight: inherit;
+          font-family: inherit;
+          line-height: inherit;
+          
+        }
+      }
+    }
+
+    p {
+      letter-spacing: 0;
+    }
+
+    .hero-btn-wrapper {
+      margin-top: 40px;
+      @include flex;
+      gap: 24px;
+
+      @include breakpoint (max-xl){
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      
+      .video-btn {
+        @include flex;
+        gap: 9px;
+
+        span {
+          margin-bottom: 0;
+        }
+
+        .icon {
+          width: 56px;
+          height: 56px;
+          border-radius: 100px;
+          border: 1px solid rgba(102, 102, 102, 0.16);
+          @include flex;
+          justify-content: center;
+
+          i {
+            color: $gt-theme-color;
+          }
+        }
+
+        .text {
+          font-size: 14px;
+           font-family: $gt-body-font;
+      color: $gt-black;
+          font-weight: 600;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}

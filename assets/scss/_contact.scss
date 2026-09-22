@@ -1,0 +1,589 @@
+.contact-area {
+    .contact-wrapper {
+        background: #121212;
+        margin: 0 40px;
+        position: relative;
+        z-index: 5;
+
+        @include breakpoint(max-md) {
+            margin: 0;
+        }
+
+        .contact-shape {
+            position: absolute;
+            bottom: 0;
+            right: 94px;
+            z-index: -1;
+        }
+
+        .section-title-two {
+            @include breakpoint(max-xl) {
+                flex-direction: column !important;
+            }
+
+            .title-left-content {
+                width: 33%;
+
+                @include breakpoint(max-xl) {
+                    width: 100%;
+                }
+            }
+
+            .title-right-content {
+                width: 67%;
+
+                @include breakpoint(max-xl) {
+                    width: 100%;
+                }
+
+                .title {
+                    max-width: 926px;
+                    color: $gt-white;
+
+                    @include breakpoint(max-xxxl) {
+                        font-size: 70px !important;
+                        line-height: 80px;
+                    }
+
+                    @include breakpoint(max-md) {
+                        font-size: 45px !important;
+                        line-height: 55px;
+                    }
+
+                    @include breakpoint(max-xs) {
+                        font-size: 32px !important;
+                        line-height: 42px;
+                    }
+                }
+
+                .form-title {
+                    font-family: $gt-secondary-font-2;
+                    font-weight: 400;
+                    font-size: 50px;
+                    line-height: 120%;
+                    color: #123;
+                }
+            }
+        }
+
+        .contact-cta-wrap {
+            border-radius: 10px;
+            background: $gt-theme-color;
+            padding: 40px;
+            margin-top: -180px;
+            margin-right: 30px;
+
+            @include breakpoint(max-xl) {
+                margin-top: 0;
+            }
+
+            @include breakpoint(max-lg) {
+                margin-right: 0;
+            }
+
+            .contact-cta {
+                margin-bottom: 50px;
+
+                @include breakpoint(max-md) {
+                    margin-bottom: 30px;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                .title {
+                    color: $gt-black;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 30px;
+                    letter-spacing: -0.3px;
+                    text-transform: uppercase;
+                    margin-bottom: 10px;
+                }
+
+                .text {
+                    color: $gt-text-color-2;
+                    letter-spacing: -0.16px;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}
+
+.contact-area-two {
+    .contact-wrapper {
+        background: $gt-bg-color-4;
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: -80px;
+
+            .title {
+                color: $gt-black;
+                font-size: 200px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 160px;
+                letter-spacing: -2px;
+                max-width: 751px;
+
+                @include breakpoint (max-lg) {
+                    font-size: 150px;
+                }
+
+                @include breakpoint (max-lg) {
+                    font-size: 100px;
+                    line-height: 120px;
+                }
+
+                @include breakpoint (max-xxs) {
+                    font-size: 70px;
+                    line-height: 0.2;
+                    margin-bottom: 40px;
+                }
+
+                p {
+                    color: $gt-black;
+                    font-size: 200px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 160px;
+                    letter-spacing: -2px;
+                    max-width: 751px;
+                    margin-left: 145px;
+
+                    @include breakpoint (max-lg) {
+                        font-size: 150px;
+                    }
+
+                    @include breakpoint (max-lg) {
+                        font-size: 100px;
+                        line-height: 100px;
+                    }
+
+                    @include breakpoint (max-xxs) {
+                        margin-left: 45px;
+                        font-size: 70px;
+                        line-height: 100px;
+                    }
+                }
+            }
+
+            .tp-letter-span {
+                display: inline-block;
+            }
+
+            .gt-svg-btn {
+                margin-top: -80px;
+                display: inline-block;
+
+                svg {
+                    @include breakpoint (max-md) {
+                        width: 50px;
+                        height: 50px;
+                    }
+
+                    @include breakpoint (max-lg) {
+                        display: none;
+                    }
+                }
+            }
+
+        }
+
+        .contact-text {
+            color: $gt-black;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+            margin-left: 100px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+
+            @include breakpoint (max-md) {
+                font-size: 30px;
+            }
+
+            @include breakpoint (max-xxs) {
+                font-size: 20px;
+                line-height: 28px;
+            }
+
+
+            @include breakpoint (max-lg) {
+                margin-left: 0;
+            }
+
+            a {
+                color: $gt-black;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+                text-decoration-line: underline;
+                text-decoration-style: solid;
+                text-decoration-thickness: auto;
+                text-underline-offset: auto;
+
+                @include breakpoint (max-md) {
+                    font-size: 30px;
+                }
+
+                @include breakpoint (max-xxs) {
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+}
+
+.contact-area-four {
+    .contact-wrapper {
+        background: $gt-bg-color-13;
+
+        .logo {
+            margin-bottom: 43px;
+
+            @include breakpoint (max-sm){
+                img {
+                    width: 190px;
+                }
+            }
+        }
+
+        .text {
+            color: $gt-text-color-5;
+            font-family: $gt-body-font-1;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: -0.16px;
+            text-transform: capitalize;
+            max-width: 441px;
+        }
+
+        .social-icon-wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 0 30px;
+            border-left: 1px solid $gt-border-color-7;
+            border-right: 1px solid $gt-border-color-7;
+
+            @include breakpoint (max-lg) {
+                border: none;
+                padding: 0;
+            }
+
+            .social-btn {
+                position: relative;
+                z-index: 1;
+                background: $gt-text-color-3;
+                padding: 25px;
+                -webkit-transition: all 200ms ease-in-out;
+                -o-transition: all 200ms ease-in-out;
+                transition: all 200ms ease-in-out;
+                transform-origin: left;
+
+                a {
+                    color: $gt-text-color-4;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 28px;
+                    letter-spacing: -0.2px;
+                    text-transform: capitalize;
+                    display: inline-block;
+                    width: 100%;
+                    text-align: center;
+                    position: relative;
+                    z-index: 5;
+                    -webkit-transition: all 200ms ease-in-out;
+                    -o-transition: all 200ms ease-in-out;
+                    transition: all 200ms ease-in-out;
+                }
+
+                &::before {
+                    content: '';
+                    width: 3px;
+                    height: 100%;
+                    background: $gt-theme-color-2;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: 1;
+                    -webkit-transition: all 200ms ease-in-out;
+                    -o-transition: all 200ms ease-in-out;
+                    transition: all 200ms ease-in-out;
+                }
+
+                &:hover {
+                    &::before {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    a {
+                        color: $gt-black;
+                    }
+                }
+            }
+        }
+
+        .contact-cta {
+            margin-left: 93px;
+
+            @include breakpoint(max-xl) {
+                margin-left: 0;
+            }
+
+            .cta-item {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                margin-bottom: 25px;
+
+                .icon {
+                    width: 40px;
+                    height: 40px;
+                    aspect-ratio: 1/1;
+                    border: 1px solid $gt-border-color-7;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .location {
+                    color: $gt-text-color-5;
+                    font-family: $gt-body-font-1;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: -0.16px;
+                    text-transform: capitalize;
+                }
+
+                a {
+                    color: $gt-text-color-5;
+                    font-family: $gt-body-font-1;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: -0.16px;
+                    text-transform: capitalize;
+                    display: block;
+
+                    &:hover {
+                        color: $gt-theme-color-3;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contact-form-wrapper {
+    &.style-2 {
+        background: #121212;
+
+        .form-title {
+            color: $gt-white;
+        }
+
+        .contact-form {
+            .form-control {
+                color: $gt-white !important;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+                background: transparent !important;
+
+                &::placeholder {
+                    color: $gt-white !important;
+                }
+            }
+
+            select {
+
+                option {
+                    background: $gt-black !important;
+                }
+            }
+
+            select.form-control {
+                appearance: none !important;
+                background: transparent url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><path fill-rule='evenodd' clip-rule='evenodd' d='M5.29289 8.29289C4.90237 8.68342 4.90237 9.31658 5.29289 9.70711L11.2929 15.7071C11.6834 16.0976 12.3166 16.0976 12.7071 15.7071L18.7071 9.70711C19.0976 9.31658 19.0976 8.68342 18.7071 8.29289C18.3166 7.90237 17.6834 7.90237 17.2929 8.29289L12 13.5858L6.70711 8.29289C6.31658 7.90237 5.68342 7.90237 5.29289 8.29289Z' fill='white'/></svg>") no-repeat right 12px center !important;
+                background-size: 16px !important;
+                padding-right: 40px !important;
+            }
+        }
+
+    }
+
+    .form-title {
+        font-family: $gt-secondary-font-2;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 50px;
+        color: #123;
+        margin-bottom: 50px;
+        max-width: 617px;
+
+        @include breakpoint (max-xl) {
+            font-size: 45px;
+            line-height: 45px;
+        }
+
+        @include breakpoint (max-lg) {
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        @include breakpoint (max-xs) {
+            font-size: 30px;
+            line-height: 30px;
+        }
+
+        @include breakpoint (max-xxs) {
+            font-size: 26px;
+            line-height: 30px;
+        }
+    }
+
+    .address-meta {
+        background: $gt-theme-color;
+        padding: 40px;
+        border-radius: 10px;
+        margin-right: 30px;
+
+        @include breakpoint (max-xl) {
+            margin-right: 0;
+        }
+
+        .address-meta-items {
+            margin-bottom: 45px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .address-title {
+                font-family: $gt-secondary-font-2;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 36px;
+                letter-spacing: -0.01em;
+                text-transform: uppercase;
+                color: #121212;
+            }
+
+            span {
+                font-family: $gt-body-font;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+                letter-spacing: -0.01em;
+                text-transform: capitalize;
+                color: #6d6d6d;
+            }
+        }
+    }
+}
+
+.contact-page-wrapper {
+    padding-top: 200px;
+    padding-bottom: 150px;
+
+    .content {
+        .title {
+            font-family: $gt-secondary-font-2;
+            font-weight: 600;
+            font-size: 60px;
+            line-height: 70px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #121212;
+            margin-bottom: 35px;
+            max-width: 600px;
+
+            @include breakpoint(max-xxl) {
+                font-size: 55px;
+                line-height: 60px;
+            }
+
+            @include breakpoint(max-xxl) {
+                font-size: 45px;
+                line-height: 50px;
+            }
+        }
+
+        .text {
+            font-family: $gt-body-font-1;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #555555;
+            margin-bottom: 40px;
+        }
+    }
+
+    .contact-info {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .info-items {
+            width: 33.3%;
+
+            @include breakpoint(max-xxl) {
+                width: 50%;
+            }
+
+            @include breakpoint(max-xxs) {
+                width: 100%;
+            }
+
+            .info-title {
+                font-family: $gt-body-font-1;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 20px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #121212;
+                margin-bottom: 23px;
+
+                a,
+                p {
+                    font-family: $gt-body-font-1;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 16px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #555555;
+                    display: flex;
+                    gap: 10px;
+
+                    svg {
+                        max-width: 16px;
+                        max-height: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

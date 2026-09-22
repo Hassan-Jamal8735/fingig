@@ -1,0 +1,82 @@
+:root {
+
+    --gt-body: #fff;
+    --gt-black: #000;
+    --gt-white: #fff;
+    --gt-theme: #C9F31D;
+    --gt-theme-2: #C9F31D;
+    --gt-theme-3: #C9F31D;
+    --gt-header: #1C1C1C;
+    --gt-border: #FCFCFC;
+    --gt-bg: #D9D9D9;
+    --gt-bg2: #F8F8F8;
+    --gt-bg3: #F7F3EE;
+    --gt-bg4: #F4F4F4;
+    --gt-bg5: #F0F0F0;
+    --gt-bg6: #7903E0;
+    --gt-bg7: #495FEA;
+    --gt-bg8: #E21E1E;
+    --gt-bg9: #F4F4F2;
+    --gt-bg10: #282828;
+    --gt-bg11: #E9E9E9;
+    --gt-bg12: #F2EDEA;
+    --gt-bg13: #F9EFF1;
+    --gt-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.13);
+
+    --gt-text: #434343;
+    --gt-text-1: #8E8E8E;
+    --gt-text-2: #6D6D6D;
+    --gt-text-3: #1E1E1E;
+    --gt-text-4: #9E9EA3;
+    --gt-text-5: #555;
+    --gt-text-6: #121212;
+
+    --gt-border-1: rgba(0, 0, 0, 0.20);
+    --gt-border-2: rgba(0, 0, 0, 0.07);
+    --gt-border-3: rgba(255, 255, 255, 0.20);
+    ;
+    --gt-border-4: rgba(255, 255, 255, 0.30);
+    --gt-border-5: rgba(0, 0, 0, 0.10);
+    --gt-border-6: rgba(0, 0, 0, 0.30);
+    --gt-border-7: rgba(18, 18, 18, 0.20);
+}
+
+// Theme Color - Defualt Colors
+$gt-black: var(--gt-black);
+$gt-white: var(--gt-white);
+$gt-theme-color: var(--gt-theme);
+$gt-theme-color-2: var(--gt-theme-2);
+$gt-theme-color-3: var(--gt-theme-3);
+$gt-header-color: var(--gt-header);
+$gt-border-color: var(--gt-border);
+$gt-bg-color: var(--gt-bg);
+$gt-bg-color-2: var(--gt-bg2);
+$gt-bg-color-3: var(--gt-bg3);
+$gt-bg-color-4: var(--gt-bg4);
+$gt-bg-color-5: var(--gt-bg5);
+$gt-bg-color-6: var(--gt-bg6);
+$gt-bg-color-7: var(--gt-bg7);
+$gt-bg-color-8: var(--gt-bg8);
+$gt-bg-color-9: var(--gt-bg9);
+$gt-bg-color-10: var(--gt-bg10);
+$gt-bg-color-11: var(--gt-bg11);
+$gt-bg-color-12: var(--gt-bg12);
+$gt-bg-color-13: var(--gt-bg13);
+
+$gt-shadow: var(--gt-box-shadow);
+
+$gt-text-color: var(--gt-text);
+$gt-text-color-1: var(--gt-text-1);
+$gt-text-color-2: var(--gt-text-2);
+$gt-text-color-3: var(--gt-text-3);
+$gt-text-color-4: var(--gt-text-4);
+$gt-text-color-5: var(--gt-text-5);
+$gt-text-color-6: var(--gt-text-6);
+
+$gt-border-color-1: var(--gt-border-1);
+$gt-border-color-2: var(--gt-border-1);
+$gt-border-color-3: var(--gt-border-3);
+$gt-border-color-4: var(--gt-border-4);
+$gt-border-color-5: var(--gt-border-5);
+$gt-border-color-6: var(--gt-border-6);
+$gt-border-color-7: var(--gt-border-7);

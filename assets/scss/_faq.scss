@@ -1,0 +1,136 @@
+.faq-area-four {
+    .faq-wrapper {
+        background: $gt-bg-color-12;
+        // padding-right: 255px;
+
+        @include breakpoint (max-md) {
+            padding-right: 0;
+        }
+
+        &.custom-faq {
+            background: $gt-text-color-6;
+
+            .faq-content {
+                margin: 0;
+
+                .faq-main-content {
+                    margin: 0;
+                    padding: 60px;
+
+                    @include breakpoint (max-md) {
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+
+        .faq-content {
+            margin: 0 100px;
+
+            @include breakpoint (max-md) {
+                margin: 0 20px;
+            }
+
+            .row {
+                .col-xl-3 {
+                    @include breakpoint (max-xl) {
+                        display: none;
+                    }
+                }
+            }
+
+            .thumb {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                height: 100%;
+                position: relative;
+
+                &.thumb-1 {
+                    justify-content: end;
+                    position: relative;
+
+                    .thumb-shape-1 {
+                        position: absolute;
+                        bottom: -60px;
+                        left: -60px;
+
+                        @include breakpoint (max-xxxl) {
+                            bottom: 0;
+                            left: 0;
+                        }
+                    }
+                }
+
+                &.thumb-2 {
+                    justify-content: start;
+                    position: relative;
+
+                    @include breakpoint (max-xl) {
+                        display: none;
+                    }
+
+                    .thumb-shape-2 {
+                        position: absolute;
+                        top: -60px;
+                        right: -60px;
+
+                        @include breakpoint (max-xxxl) {
+                            top: 0;
+                            right: 0;
+                        }
+                    }
+                }
+            }
+
+            .faq-main-content {
+                margin: 0 98px;
+
+                @include breakpoint (max-xxxl) {
+                    margin: 0;
+                }
+            }
+
+        }
+    }
+}
+
+.faq-page-wrapper {
+    .section-title {
+        .title {
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 70px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: #121212;
+
+            @include breakpoint (max-xxl) {
+                font-size: 30px;
+                line-height: 35px;
+            }
+
+            @include breakpoint (max-xs) {
+                font-size: 22px;
+                line-height: 28px;
+            }
+        }
+    }
+
+    .accordion {
+        .accordion-item .accordion-header button:after {
+            @include breakpoint(max-sm) {
+                display: block !important;
+            }
+        }
+    }
+
+    .row {
+        .col-xl-3 {
+            @include breakpoint (max-xl) {
+                display: none;
+            }
+        }
+    }
+}

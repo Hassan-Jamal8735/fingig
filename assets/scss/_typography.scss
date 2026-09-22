@@ -1,0 +1,186 @@
+/* --------------------------------------------
+    Template Default Fonts & Fonts Styles
+ ---------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+$gt-heading-font: "Anton", sans-serif;
+$gt-body-font: "Inter", sans-serif;
+$gt-body-font-1: "Kanit", sans-serif;
+$gt-secondary-font: "Playfair Display", serif;
+$gt-secondary-font-2: "Plus Jakarta Sans", sans-serif;
+$fa: "Font Awesome 6 Pro";
+
+body {
+	font-family: $gt-body-font;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	color: $gt-text-color;
+	background-color: $gt-white;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+@media (min-width: 0px) and (max-width: 319px) {
+	body {
+		min-width: 319px;
+	}
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+	padding: 0;
+}
+
+input:focus {
+	color: $gt-white;
+	outline: none;
+}
+
+input {
+	color: $gt-white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $gt-heading-font;
+	margin: 0px;
+	padding: 0;
+	color: $gt-header-color;
+	@include transition;
+	text-transform: capitalize;
+}
+
+h1 {
+	font-size: 200px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: -2px;
+	line-height: 170px;
+	text-transform: uppercase;
+
+	@include breakpoint(max-xxl) {
+		font-size: 140px;
+		line-height: 80%;
+	}
+
+	@include breakpoint(max-lg) {
+		font-size: 105px;
+		line-height: 100px;
+	}
+
+	@include breakpoint(max-md) {
+		font-size: 80px;
+		line-height: 85px;
+	}
+
+	@include breakpoint(max-sm) {
+		font-size: 72px;
+		line-height: 77px;
+	}
+
+	@include breakpoint(max-xs) {
+		font-size: 70px;
+		line-height: 75px;
+	}
+
+	@include breakpoint(max-xxs) {
+		font-size: 60px;
+		line-height: 68px;
+	}
+
+	@include breakpoint(max-xxsmall) {
+		font-size: 47px;
+		line-height: 53px;
+	}
+}
+
+h2 {
+	color: $gt-black;
+	font-size: 90px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 100px;
+	text-transform: uppercase;
+
+	@include breakpoint(max-xxl) {
+		font-size: 80px;
+		line-height: 92px;
+	}
+
+	@include breakpoint(max-lg) {
+		font-size: 75px;
+		line-height: 90px;
+	}
+
+	@include breakpoint(max-lg) {
+		font-size: 55px;
+		line-height: 72px;
+	}
+
+	@include breakpoint(max-sm) {
+		font-size: 45px;
+		line-height: 55px;
+	}
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 134%;
+
+	@include breakpoint(max-sm) {
+		font-size: 20px;
+	}
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+h6 {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	outline: none !important;
+	cursor: pointer;
+	color: $gt-header-color;
+	@include transition;
+}
+
+p {
+	margin: 0px;
+	@include transition;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 26px;
+}
+
+span {
+	margin: 0px;
+	// @include transition;
+}

@@ -1,0 +1,89 @@
+.counter-area-four {
+    .counter-wrapper {
+        background: $gt-theme-color-3;
+        padding: 60px 0;
+        margin-right: 255px;
+        padding-left: 255px;
+        position: relative;
+
+        @include breakpoint (max-xl4) {
+            margin-right: 100px;
+            padding-left: 100px;
+        }
+
+        @include breakpoint (max-xxl) {
+            margin-right: 0;
+            padding-left: 0;
+        }
+
+        .bg-shape-1 {
+            width: 90px;
+            height: 90px;
+            border-radius: 0 0 0 100px;
+            background: $gt-text-color-6;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .bg-shape-2 {
+            width: 62px;
+            height: 62px;
+            transform: rotate(90deg);
+            border-radius: 0 0 0 100px;
+            background: $gt-text-color-6;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        .row {
+            .col-xl-3 {
+                @include breakpoint(max-md) {
+                    width: 50%;
+                }
+            }
+        }
+
+        .counter-items {
+            span {
+                color: $gt-text-color-6;
+                font-family: $gt-secondary-font-2;
+                font-size: 100px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 100px;
+                text-transform: capitalize;
+                display: inline-block;
+                margin-bottom: 15px;
+
+                @include breakpoint (max-xxl) {
+                    font-size: 80px;
+                    line-height: 80px;
+                }
+
+                @include breakpoint (max-lg) {
+                    font-size: 50px;
+                    line-height: 50px;
+                }
+            }
+
+            .counter-title {
+                h4 {
+                    color: $gt-black;
+                    font-family: $gt-body-font-1;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-transform: capitalize;
+
+                    @include breakpoint (max-xxxsmall) {
+                        font-size: 13px;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

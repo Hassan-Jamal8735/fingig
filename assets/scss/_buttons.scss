@@ -1,0 +1,477 @@
+//>>>>> Component Button Here <<<<<//
+
+
+
+.gt-hover-btn-wrapper {
+    display: inline-block;
+
+    .gt-btn-circle-2 {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        border-radius: 50%;
+        color: $gt-black;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: -0.14px;
+        text-transform: uppercase;
+        border: 1px solid $gt-border-color-1 !important;
+        z-index: 1;
+        width: 116px;
+        height: 116px;
+        border: 0;
+        background: $gt-white;
+
+        @include breakpoint(max-md){
+            width: 90px;
+            height: 90px;
+        }
+        @include breakpoint(max-xs){
+            width: 80px;
+            height: 80px;
+        }
+
+        &:hover {
+            color: $gt-black !important;
+
+            .gt-btn-circle-dot {
+                width: 320px;
+                height: 320px;
+            }
+
+            &.bg-2 {
+                border: 1px solid $gt-theme-color-2;
+                background: $gt-theme-color-2 !important;
+            }
+        }
+
+        .gt-btn-circle-dot {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 30px;
+            height: 30px;
+            background-color: $gt-theme-color;
+            line-height: 20px;
+            border-radius: 50%;
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -ms-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+
+            &.bg-2 {
+                background-color: $gt-theme-color-2;
+            }
+        }
+
+        .gt-btn-circle-text-2 {
+            display: block;
+
+            &:hover {
+                color: $gt-black !important;
+            }
+        }
+    }
+}
+
+.gt-hover-btn-wrapper-two {
+    display: inline-block;
+
+    .gt-btn-circle-2 {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        border-radius: 50%;
+        color: $gt-black;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: -0.14px;
+        text-transform: uppercase;
+        border: 1px solid $gt-border-color-1 !important;
+        z-index: 1;
+        width: 116px;
+        height: 116px;
+        border: 0;
+        background: $gt-white;
+
+        &:hover {
+            color: $gt-white !important;
+
+            .gt-btn-circle-dot {
+                width: 320px;
+                height: 320px;
+            }
+        }
+
+        .gt-btn-circle-dot {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 30px;
+            height: 30px;
+            background-color: $gt-theme-color-2;
+            line-height: 20px;
+            border-radius: 50%;
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -ms-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        .gt-btn-circle-text-2 {
+            display: block;
+
+            &:hover {
+                color: $gt-white !important;
+            }
+        }
+    }
+}
+
+.simple-btn {
+    .gt-btn-circle-2 {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        color: $gt-white;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: -0.16px;
+        text-transform: capitalize;
+        z-index: 1;
+        border: 0;
+        background: transparent;
+        border-radius: 100px;
+        border: 1px solid $gt-border-color-3;
+        padding: 15px 20px;
+
+        &:hover {
+            color: $gt-black !important;
+
+            .gt-btn-circle-dot {
+                width: 320px;
+                height: 320px;
+            }
+        }
+
+        .gt-btn-circle-dot {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 30px;
+            height: 30px;
+            background-color: $gt-theme-color;
+            line-height: 20px;
+            border-radius: 50%;
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -ms-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        .gt-btn-circle-text-2 {
+            display: block;
+
+            &:hover {
+                color: $gt-black !important;
+            }
+        }
+    }
+}
+
+.simple-btn-black {
+    .gt-btn-circle-2 {
+        position: relative;
+        display: inline-block;
+        color: $gt-white;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: -0.16px;
+        text-transform: uppercase;
+        z-index: 1;
+        border: 0;
+        background: $gt-black;
+        border: 1px solid $gt-white;
+        border-radius: 100px;
+        padding: 22px 30px;
+        overflow: hidden;
+
+        &:hover {
+            color: $gt-black !important;
+            background: $gt-theme-color !important;
+
+            .gt-btn-circle-dot {
+                width: 350px;
+                height: 350px;
+            }
+        }
+
+        .gt-btn-circle-dot {
+            position: absolute;
+            bottom: 0;
+            left: -30px;
+            width: 30px;
+            height: 30px;
+            background-color: $gt-theme-color;
+            line-height: 20px;
+            border-radius: 50%;
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -ms-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        .gt-btn-circle-text-2 {
+            display: block;
+
+            &:hover {
+                color: $gt-black !important;
+            }
+        }
+    }
+}
+
+.simple-btn-white {
+    .gt-btn-circle-2 {
+        position: relative;
+        display: inline-block;
+        color: $gt-black !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: -0.16px;
+        text-transform: uppercase;
+        z-index: 1;
+        border: 0;
+        background: transparent;
+        border: 1px solid $gt-border-color-1;
+        border-radius: 100px;
+            padding: 20px 28px;
+        overflow: hidden;
+
+
+
+        svg path {
+            -webkit-transition: all 150ms ease-in-out;-o-transition: all 150ms ease-in-out;transition: all 150ms ease-in-out;
+        }
+
+
+        &:hover {
+            color: $gt-black !important;
+            background: $gt-theme-color !important;
+            border: 1px solid $gt-theme-color;
+
+            &.bg-2 {
+                border: 1px solid $gt-theme-color-2;
+                background: $gt-theme-color-2 !important;
+            }
+
+            svg path {
+                fill: $gt-bg-color;
+            }
+
+            span {
+                fill: $gt-bg-color;
+            }
+
+            .gt-btn-circle-dot {
+                width: 350px;
+                height: 350px;
+            }
+        }
+
+        .gt-btn-circle-dot {
+            position: absolute;
+            bottom: 0;
+            left: -30px;
+            width: 30px;
+            height: 30px;
+            background-color: $gt-theme-color;
+            line-height: 20px;
+            border-radius: 50%;
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -ms-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+
+            &.bg-2 {
+                background-color: $gt-theme-color-2;
+            }
+        }
+
+        .gt-btn-circle-text-2 {
+            display: block;
+
+            &:hover {
+                color: $gt-black !important;
+            }
+        }
+    }
+}
+
+.simple-btn-white-2 {
+    .gt-btn-circle-2 {
+        position: relative;
+        display: inline-block;
+        color: $gt-black;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: -0.16px;
+        text-transform: uppercase;
+        z-index: 1;
+        border: 0;
+        background: $gt-white;
+        border: 1px solid $gt-border-color-1;
+        border-radius: 100px;
+        padding: 18px 26px;
+        overflow: hidden;
+
+
+
+        svg path {
+            -webkit-transition: all 150ms ease-in-out;-o-transition: all 150ms ease-in-out;transition: all 150ms ease-in-out;
+        }
+
+
+        &:hover {
+            color: $gt-black !important;
+            background: $gt-theme-color !important;
+            border: 1px solid $gt-theme-color;
+
+            &.bg-2 {
+                border: 1px solid $gt-theme-color-2;
+                background: $gt-theme-color-2 !important;
+            }
+
+            svg path {
+                fill: $gt-white;
+            }
+
+            .gt-btn-circle-dot {
+                width: 350px;
+                height: 350px;
+            }
+        }
+
+        .gt-btn-circle-dot {
+            position: absolute;
+            bottom: 0;
+            left: -30px;
+            width: 30px;
+            height: 30px;
+            background-color: $gt-theme-color;
+            line-height: 20px;
+            border-radius: 50%;
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -ms-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+
+            &.bg-2 {
+                background-color: $gt-black;
+            }
+        }
+
+        .gt-btn-circle-text-2 {
+            display: block;
+
+            &:hover {
+                color: $gt-black !important;
+            }
+        }
+    }
+}
+
+.solid-btn {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    text-transform: uppercase;
+}
+
+.solid-btn-2 {
+    color: $gt-black;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    -webkit-transition: all 200ms ease-in-out;-o-transition: all 200ms ease-in-out;transition: all 200ms ease-in-out;
+
+    .icon {
+        width: 30px;
+        height: 30px;
+        aspect-ratio: 1/1;
+
+        svg path {
+            -webkit-transition: all 200ms ease-in-out;-o-transition: all 200ms ease-in-out;transition: all 200ms ease-in-out;
+        }
+    }
+
+    &:hover {
+        color: $gt-theme-color-2;
+
+        svg path {
+            fill: $gt-theme-color-2;
+        }
+    }
+}

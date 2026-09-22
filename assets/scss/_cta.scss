@@ -1,0 +1,137 @@
+.cta-area-three {
+    .cta-wrapper {
+
+        &.faq-cta {
+            margin-top: -230px;
+
+            @include breakpoint(max-md){
+                margin-top: 0;
+                padding-top: 50px;
+            }
+        }
+        .cta-content {
+            border-radius: 20px;
+            background: $gt-bg-color-9;
+            margin: 0 60px;
+            padding: 100px 195px;
+            position: relative;
+            z-index: 1;
+
+            @include breakpoint (max-xl4) {
+                padding: 50px;
+            }
+
+            @include breakpoint (max-sm) {
+                padding: 20px;
+                margin: 0;
+            }
+
+            .bg-shape {
+                position: absolute;
+                bottom: 0;
+                right: 33%;
+                z-index: -1;
+            }
+
+            .cta-content-wrap {
+                display: flex;
+                align-items: center;
+                gap: 212px;
+
+                @include breakpoint (max-xxl) {
+                    gap: 50px;
+                }
+
+                @include breakpoint (max-xl) {
+                    justify-content: space-between;
+                }
+
+                @include breakpoint (max-lg) {
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .title {
+                    color: $gt-black;
+                    font-size: 72px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 85px;
+                    letter-spacing: -2.4px;
+
+                    @include breakpoint (max-xxxl) {
+                        font-size: 50px;
+                        line-height: 75px;
+                    }
+
+                    @include breakpoint (max-md) {
+                        font-size: 40px;
+                        line-height: 55px;
+                    }
+
+                    @include breakpoint (max-sm) {
+                        font-size: 45px;
+                        line-height: 55px;
+                    }
+
+                    @include breakpoint (max-xxsmall) {
+                        font-size: 30px;
+                        line-height: 45px;
+                    }
+
+                    span {
+                        color: $gt-text-color-4;
+                        font-size: 80px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 85px;
+                        letter-spacing: -2.4px;
+                        position: relative;
+
+                        @include breakpoint (max-xxxl) {
+                            font-size: 50px;
+                            line-height: 75px;
+                        }
+
+                        @include breakpoint (max-md) {
+                            font-size: 40px;
+                            line-height: 55px;
+                        }
+
+                        @include breakpoint (max-sm) {
+                            font-size: 45px;
+                            line-height: 55px;
+                        }
+
+                        @include breakpoint (max-xxsmall) {
+                            font-size: 30px;
+                            line-height: 45px;
+                        }
+
+                        img {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                        }
+                    }
+                }
+
+                .content-inner {
+                    display: flex;
+                    align-items: center;
+                    gap: 47px;
+
+                    .our-clint-2 {
+                        transform: rotate(15deg);
+                    }
+                }
+
+                .our-clint-2 {
+                    @include breakpoint (max-xl) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

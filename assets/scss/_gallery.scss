@@ -1,0 +1,54 @@
+.gallery-area-one{
+    .gallery-wrapper{
+        position: relative;
+        z-index: 5;
+        background: $gt-white;
+        height: auto;
+
+        @include breakpoint (max-xl){
+           
+            height: 750px;
+            img {
+                object-fit: cover;
+                 
+                height: 100% !important;         
+            }
+        }
+
+        @include breakpoint (max-md){
+            height: 480px;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.work-process-area-four {
+    position: relative;
+
+    .circle-shape {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+        @include breakpoint (max-xl){
+            display: none;
+        }
+    }
+}
+
+.team-page-thumb  {
+    .thumb {
+        @include breakpoint (max-xl){
+            height: 600px;
+
+            img {
+                height: 100% !important;
+                object-fit: cover;
+            }
+        }
+    }
+}

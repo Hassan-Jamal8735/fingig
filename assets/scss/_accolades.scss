@@ -1,0 +1,65 @@
+.accolades-area-two {
+    .accolades-wrapper {
+        position: relative;
+
+        .line-shape-1 {
+            position: absolute;
+            left: 75px;
+            bottom: 0;
+            width: calc(100% - 150px);
+            height: 1px;
+            background: repeating-linear-gradient(to right,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2) 5px,
+                    transparent 5px,
+                    transparent 10px);
+            z-index: -1;
+            animation: dash-3 1s linear infinite;
+        }
+
+        .accolades-card {
+            position: relative;
+            padding-left: 30px;
+
+            &::before {
+                content: '';
+                width: 1px;
+                height: 100%;
+                background: $gt-border-color-1;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            &::after {
+                content: '';
+                width: 4px;
+                height: 50px;
+                background: $gt-black;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            .accolades-logo {
+                margin-bottom: 20px;
+            }
+
+            .title {
+                color: $gt-black;
+                font-family: $gt-body-font;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 26px;
+                margin-bottom: 15px;
+            }
+
+            .text {
+                color: $gt-text-color-2;
+                text-transform: capitalize;
+                max-width: 415px;
+            }
+        }
+    }
+}

@@ -1,0 +1,144 @@
+/*
+Theme Name: PixelR 
+Author: Gramentheme
+Author URI: https://themeforest.net/user/Gramentheme/portfolio
+Description: PixelR- Creative Agency HTML Template
+Service Html Template 
+Version: 1.0.0
+*/
+
+//======================================//
+//               CSS TABLE              //
+//               OF CONTENT             //
+//======================================//
+
+//--------------------------------------//
+// >> Core Utilities
+//     - Mixins
+//     - Variables
+//--------------------------------------//
+
+//--------------------------------------//
+// >> Base Elements
+//     - Buttons
+//     - Typography
+//--------------------------------------//
+
+//--------------------------------------//
+// >> Layout & Structure
+//     - Common Section
+//     - Header
+//     - Footer
+//     - MeanMenu (Mobile Menu)
+//     - Preloader
+//--------------------------------------//
+
+//--------------------------------------//
+// >> Template Sections
+//     - Hero Section
+//     - About Section
+//     - Feature Section
+//     - Services
+//     - Team Section
+//     - Testimonials
+//     - FAQ
+//     - Call to Action
+//     - Contact
+//     - News / Blog
+//     - Event / Room
+//     - Helping / Extra Sections
+//--------------------------------------//
+
+//--------------------------------------//
+// >> Effects & Animations
+//     - Animations
+//--------------------------------------//
+
+
+//======================================//
+//           IMPORT ALL FILES           //
+//======================================//
+
+
+//>> Basic Start <<//
+
+//>> Mixins <<//
+@import "_mixins";
+//>> Variables <<//	
+@import "_variables";
+//>> Buttons <<//
+@import "_buttons";
+//>> Typography <<//
+@import "_typography";
+//>> Typography <<//
+@import "_spacing";
+//>> Basic End <<//	
+
+
+//>> Template Section Style Start <<//
+
+//>> About <<//
+@import "_about";
+//>> Blog <<//
+@import "_blog";
+//>> Project <<//
+@import "_project";
+//>> Animation <<//
+@import "_animation";
+//>> Contact <<//
+@import "_contact";
+//>> Contact <<//
+@import "_solutions";
+//>> Cta <<//
+@import "_cta";
+//>> Faq <<//
+@import "_faq";
+//>> Feature <<//
+@import "_feature";
+//>> Footer <<//
+@import "_footer";
+//>> Header <<//
+@import "_header";
+//>> Helping <<//
+@import "_helping";
+//>> Hero <<//
+@import "_hero";
+//>> MeanMenu <<//
+@import "_meanmenu";
+//>> Preloader <<//
+@import "_preloader";
+//>> Service <<//
+@import "_service";
+//>> Work Process <<//
+@import "_work-process";
+//>> Why We Are Process <<//
+@import "_who-we-are";
+//>> Award Process <<//
+@import "_award";
+//>> Our-Client Process <<//
+@import "_our-client";
+//>> Counter <<//
+@import "_counter";
+//>> Team <<//
+@import "_team";
+//>> Testimonial <<//
+@import "_testimonial";
+//>> Testimonial <<//
+@import "_gallery";
+//>> Brand <<//
+@import "_brand";
+//>> Video <<//
+@import "_video";
+//>> Title <<//
+@import "_title";
+//>>Form<<//
+@import "_form";
+//>>Form<<//
+@import "marquee";
+//>>accolades<<//
+@import "accolades";
+//>>accordion<<//
+@import "accordion";
+
+
+//>> Template Section Style End <<//

@@ -1,0 +1,81 @@
+.award-area-four {
+    .award-wrapper {
+        .thumb {
+            position: relative;
+
+            .thumb-shape-1 {
+                position: absolute;
+                left: 15px;
+                bottom: -145px;
+                z-index: -1;
+            }
+
+            .thumb-shape-2 {
+                position: absolute;
+                right: 151px;
+                top: 94px;
+                z-index: -1;
+            }
+        }
+
+        nav {
+            border: none;
+        }
+
+        .nav-link {
+            border-bottom: none !important;
+            padding: 0;
+            border-radius: 0;
+            width: 100%;
+
+            &.active {
+                background: transparent;
+            }
+        }
+
+        .award-info {
+            .info-items {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+
+                .year {
+                    color: $gt-text-color-5;
+                    font-family: $gt-body-font-1;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                    width: 80px;
+                }
+
+                .info-content {
+                    color: $gt-text-color-6;
+                    font-family: $gt-body-font-1;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                    border-bottom: 1px solid $gt-border-color-7;
+                    padding: 30px;
+                    width: 100%;
+                    text-align: start;
+
+                    @include breakpoint (max-xxsmall) {
+                        font-size: 14px;
+                        line-height: 18px;
+                    }
+
+                    &.fast-items {
+                        border-top: 1px solid $gt-border-color-7;
+                    }
+
+                    span {
+                        color: $gt-text-color-5;
+                    }
+                }
+            }
+        }
+    }
+}
+
