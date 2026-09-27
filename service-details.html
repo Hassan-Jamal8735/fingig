@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
@@ -571,30 +572,29 @@
                                 </div>
                                 <div class="contact-form">
                                     <div class="container">
-                                        <form action="#" method="post">
+                                        <form method="post" data-contact-form novalidate>
+<div style="position:absolute;left:-9999px" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></div>
                                             <div class="row gy-3">
                                                 <div class="col-md-6">
-                                                    <input type="text" class="form-control" name="name"
-                                                        placeholder="name">
+                                                    <input type="text" class="form-control" name="name" placeholder="your name" required>
                                                 </div>
 
                                                 <div class="col-md-6">
-                                                    <input type="email" class="form-control" name="email"
-                                                        placeholder="email address">
+                                                    <input type="email" class="form-control" name="email" placeholder="email address" required>
                                                 </div>
 
                                                 <div class="col-md-6">
-                                                    <input type="text" class="form-control" name="name"
-                                                        placeholder="about project">
+                                                    <input type="text" class="form-control" name="project" placeholder="company / project name">
                                                 </div>
 
                                                 <div class="col-md-6">
-                                                    <select class="form-control" name="subject">
-                                                        <option value="" disabled selected>where did you hear about us?
-                                                        </option>
-                                                        <option value="web">Web Development</option>
-                                                        <option value="design">Web Design</option>
-                                                        <option value="consult">Consultation</option>
+                                                    <select class="form-control" name="source">
+                                                        <option value="" disabled selected>what do you need?</option>
+                                                        <option>Website design &amp; development</option>
+                                                        <option>Web application</option>
+                                                        <option>E-commerce store</option>
+                                                        <option>UI/UX design</option>
+                                                        <option>Care &amp; maintenance</option>
                                                     </select>
                                                 </div>
 
@@ -615,7 +615,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </form>
+                                        <p class="form-message mt-3" role="status" aria-live="polite"></p>
+</form>
                                     </div>
                                 </div>
                             </div>
@@ -806,6 +807,7 @@
     <script src="assets/js/gasp/webgl.js"></script>
     <script src="assets/js/gasp/parallax-scroll.js"></script>
     <script src="assets/js/gasp/atropos.js"></script>
+    <script src="assets/js/contact-form.js"></script>
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
 </body>

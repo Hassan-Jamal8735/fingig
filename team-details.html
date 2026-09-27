@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
@@ -494,8 +495,14 @@
                                     </div>
 
                                     <div class="container">
-                                        <form action="#" method="post" autocomplete="on">
+                                        <form method="post" data-contact-form novalidate autocomplete="on">
+<div style="position:absolute;left:-9999px" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></div>
                                             <div class="row">
+                                                <div class="col-12">
+                                                    <input type="text" class="form-control" name="name" id="name"
+                                                        placeholder="Your Name*" autocomplete="name" required>
+                                                </div>
+
                                                 <div class="col-md-6">
                                                     <input type="tel" class="form-control" name="phone" id="phone"
                                                         placeholder="Phone Number*" autocomplete="tel">
@@ -503,12 +510,12 @@
 
                                                 <div class="col-md-6">
                                                     <input type="email" class="form-control" name="email" id="email"
-                                                        placeholder="Email Address*" autocomplete="email">
+                                                        placeholder="Email Address*" autocomplete="email" required>
                                                 </div>
 
                                                 <div class="col-12">
                                                     <textarea class="form-control" name="message" id="message" rows="5"
-                                                        placeholder="Tell Us About Project*" autocomplete="off"></textarea>
+                                                        placeholder="Tell Us About Project*" autocomplete="off" required></textarea>
                                                 </div>
 
                                                 <div class="simple-btn-black mt-40" data-fade-from="bottom">
@@ -519,7 +526,8 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                        </form>
+                                        <p class="form-message mt-3" role="status" aria-live="polite"></p>
+</form>
                                     </div>
                                 </div>
                             </div>
@@ -772,6 +780,7 @@
     <script src="assets/js/gasp/webgl.js"></script>
     <script src="assets/js/gasp/parallax-scroll.js"></script>
     <script src="assets/js/gasp/atropos.js"></script>
+    <script src="assets/js/contact-form.js"></script>
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
 </body>

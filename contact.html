@@ -30,6 +30,7 @@
 
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
@@ -317,18 +318,19 @@
 
                             <div class="col-xl-6 col-lg-6">
                                 <div class="contact-form style-2">
-                                    <form action="#" method="post" autocomplete="on">
+                                    <form method="post" data-contact-form novalidate autocomplete="on">
+<div style="position:absolute;left:-9999px" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></div>
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <label for="name">Enter name</label>
                                                 <input type="text" class="form-control" id="name" name="name"
-                                                    autocomplete="name">
+                                                    autocomplete="name" required>
                                             </div>
 
                                             <div class="col-md-6">
                                                 <label for="email">Email address</label>
                                                 <input type="email" class="form-control" id="email" name="email"
-                                                    autocomplete="email">
+                                                    autocomplete="email" required>
                                             </div>
 
                                             <div class="col-md-6">
@@ -351,15 +353,15 @@
 
                                             <div class="col-12 mt-15">
                                                 <div class="simple-btn-black" data-fade-from="bottom">
-                                                    <a href="service-details.html"
-                                                        class="gt-hover-btn gt-hover-btn-item gt-btn-circle-2 d-inline-flex align-items-center justify-content-center flex-column ">
-                                                        <span class="gt-btn-circle-text-2">send message</span>
-                                                        <i class="gt-btn-circle-dot"></i>
-                                                    </a>
+                                                    <button type="submit" class="gt-hover-btn gt-hover-btn-item gt-btn-circle-2 d-inline-flex align-items-center justify-content-center flex-column ">
+<span class="gt-btn-circle-text-2">send message</span>
+<i class="gt-btn-circle-dot"></i>
+</button>
                                                 </div>
                                             </div>
                                         </div>
-                                    </form>
+                                    <p class="form-message mt-3" role="status" aria-live="polite"></p>
+</form>
                                 </div>
                             </div>
                         </div>
@@ -555,6 +557,7 @@
     <script src="assets/js/gasp/webgl.js"></script>
     <script src="assets/js/gasp/parallax-scroll.js"></script>
     <script src="assets/js/gasp/atropos.js"></script>
+    <script src="assets/js/contact-form.js"></script>
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
 </body>
