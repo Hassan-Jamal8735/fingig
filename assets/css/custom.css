@@ -1,3 +1,6 @@
 .form-message { margin: 0; font-size: 15px; }
 .form-message.success { color: #2e7d32; }
 .form-message.error { color: #c62828; }
+.tech-chip { display: inline-block; font-size: 22px; font-weight: 600; color: #121212; white-space: nowrap; letter-spacing: -0.02em; }
+.our-client-area .tech-chip, .card-items .tech-chip { font-size: 20px; }
+a[href^="mailto:"] { text-transform: none !important; }
