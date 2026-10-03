@@ -48,7 +48,7 @@ module.exports = async function handler(req, res) {
       method: "POST",
       headers: { Authorization: `Bearer ${RESEND_API_KEY}`, "Content-Type": "application/json" },
       body: JSON.stringify({
-        from: CONTACT_FROM_EMAIL || "FinGig Website <onboarding@resend.dev>",
+        from: CONTACT_FROM_EMAIL || "FignGig Website <onboarding@resend.dev>",
         to: CONTACT_TO_EMAIL.split(",").map((s) => s.trim()),
         reply_to: data.email,
         subject: `New enquiry from ${data.name}${data.subject ? ` - ${data.subject}` : ""}`,
