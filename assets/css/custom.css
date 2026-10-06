@@ -4,3 +4,22 @@
 .tech-chip { display: inline-block; font-size: 22px; font-weight: 600; color: #121212; white-space: nowrap; letter-spacing: -0.02em; }
 .our-client-area .tech-chip, .card-items .tech-chip { font-size: 20px; }
 a[href^="mailto:"] { text-transform: none !important; }
+
+/* Accolades */
+.accolades-section { background: #121212; padding: 120px 0; overflow: hidden; }
+.accolades-title { color: #fff; font-size: clamp(36px, 4.4vw, 64px); line-height: 1.15; font-weight: 600; margin: 0; }
+.accolades-rotator { display: block; height: 1.15em; overflow: hidden; color: #C9F31D; }
+.accolades-rotator-inner { display: flex; flex-direction: column; animation: accolades-rotate 5s cubic-bezier(.7,0,.3,1) infinite; }
+.accolades-rotator-inner span { height: 1.15em; }
+@keyframes accolades-rotate {
+  0%, 40% { transform: translateY(0); }
+  50%, 90% { transform: translateY(-1.15em); }
+  100% { transform: translateY(-2.3em); }
+}
+.accolades-text { color: rgba(255, 255, 255, .78); font-size: 18px; line-height: 1.75; margin: 0; }
+.accolades-slider { margin-top: 70px; }
+.accolades-slider .swiper-wrapper { transition-timing-function: linear !important; }
+.accolade-card { background: #1f1f1f; border: 1px solid rgba(255, 255, 255, .06); border-radius: 22px; aspect-ratio: 221 / 250; display: flex; align-items: center; justify-content: center; padding: 36px; transition: background .3s, border-color .3s; }
+.accolade-card:hover { background: #262626; border-color: #C9F31D; }
+.accolade-card img { max-width: 100%; max-height: 140px; object-fit: contain; }
+@media (max-width: 991px) { .accolades-section { padding: 80px 0; } .accolades-slider { margin-top: 48px; } }
